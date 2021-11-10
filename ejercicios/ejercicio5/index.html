@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+</head>
+<body>
+    <textarea name="texto" disabled="disabled" cols="100" rows="10">
+En la ciudad de [……..], se acuerda entre la Empresa [……..] representada por el Sr. [……..] en su carácter
+de Apoderado, con domicilio en la calle [……..] y el Sr. [……..], futuro empleado con domicilio en [……..],
+celebrar el presente contrato a Plazo Fijo, de acuerdo a la normativa vigente de los artículos 90, 92, 93, 94,
+95 y concordantes de la Ley de Contrato de Trabajo No. 20744.
+    </textarea>
+
+    <form action="proceso.php" method="POST">
+        <label for="ciudad">Ciudad: </label>
+        <input type="text" name="ciudad"><br>
+
+        <label for="ciudad">Empresa: </label>
+        <input type="text" name="empresa"><br>
+
+        <label for="ciudad">Representante de la empresa: </label>
+        <input type="text" name="rEmpresa"><br>
+
+        <label for="ciudad">Direccion del representante: </label>
+        <input type="text" name="dRepresentante"><br>
+
+        <label for="ciudad">Empleado: </label>
+        <input type="text" name="empleado"><br>
+
+        <label for="ciudad">Direccion del empleado: </label>
+        <input type="text" name="dEmpleado"><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>

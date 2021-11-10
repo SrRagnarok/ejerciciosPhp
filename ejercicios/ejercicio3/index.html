@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <form action="proceso.php" method="POST">
+        <label for="nombre">Nombre: </label><br>
+        <input name="nombre" placeholder="ingrese el nombre"><br>
+
+        <label for="deportes"></label>
+        <input type="checkbox" name="deporte[]" value="Futbol">Futbol<br>
+        <input type="checkbox" name="deporte[]" value="Basket">Basket<br>
+        <input type="checkbox" name="deporte[]" value="Tennis">Tennis<br>
+        <input type="checkbox" name="deporte[]" value="Voley">Voley<br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
